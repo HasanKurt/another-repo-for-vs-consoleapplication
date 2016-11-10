@@ -28,6 +28,8 @@ namespace ConsoleApplication2
         // This comment is changed.
         // Will this change show up in a fetch?: Nope! But the user is notified that there has been a change, getting this information is all what fetch does.
         // Pull will actually retrieve and update your local branch
+
+        //change from vs
     }
 
     public class Developer: Person
