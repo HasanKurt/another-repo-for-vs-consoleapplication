@@ -27,6 +27,7 @@ namespace ConsoleApplication2
         //This is a comment, made within new-branch
         // This comment is changed.
         // Will this change show up in a fetch?
+        // Edit from github.
     }
 
     public class Developer: Person
