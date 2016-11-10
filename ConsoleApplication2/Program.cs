@@ -29,7 +29,7 @@ namespace ConsoleApplication2
         // new try
     }
 
-    class Developer: Person
+    public class Developer: Person
     {
         public override void sayHello()
         {
