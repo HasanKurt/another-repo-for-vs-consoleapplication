@@ -26,7 +26,7 @@ namespace ConsoleApplication2
         public virtual void sayHello() => Console.WriteLine("Hello from Person!");
         //This is a comment, made within new-branch
         // This comment is changed.
-        // new try
+        // Will this change show up in a fetch?
     }
 
     public class Developer: Person
