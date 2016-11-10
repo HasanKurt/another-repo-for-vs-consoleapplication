@@ -24,6 +24,7 @@ namespace ConsoleApplication2
         /// This method write something to the standard output.
         /// </summary>
         public virtual void sayHello() => Console.WriteLine("Hello from Person!");
+        //This is a comment, made within new-branch
     }
 
     class Developer: Person
