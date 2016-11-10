@@ -26,7 +26,8 @@ namespace ConsoleApplication2
         public virtual void sayHello() => Console.WriteLine("Hello from Person!");
         //This is a comment, made within new-branch
         // This comment is changed.
-        // Will this change show up in a fetch?
+        // Will this change show up in a fetch?: Nope! But the user is notified that there has been a change, getting this information is all what fetch does.
+        // Pull will actually retrieve and update your local branch
     }
 
     public class Developer: Person
