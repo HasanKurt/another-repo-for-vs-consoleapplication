@@ -10,6 +10,34 @@ namespace ConsoleApplication2
     {
         static void Main(string[] args)
         {
+            var myPerson = new Person();
+
+            myPerson.sayHello();
+
+            Console.ReadLine();
         }
+    }
+
+    public class Person
+    {
+        /// <summary>
+        /// This method write something to the standard output.
+        /// </summary>
+        public virtual void sayHello() => Console.WriteLine("Hello from Person!");
+    }
+
+    class Developer: Person
+    {
+        public override void sayHello()
+        {
+            Console.WriteLine("hello from developer - changes made within new-branch");
+        }
+
+
+    }
+
+    interface IMyInterface
+    {
+        void sayHello();
     }
 }
