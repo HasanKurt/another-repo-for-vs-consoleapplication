@@ -26,6 +26,7 @@ namespace ConsoleApplication2
         public virtual void sayHello() => Console.WriteLine("Hello from Person!");
         //This is a comment, made within new-branch
         // This comment is changed.
+        // new try
     }
 
     class Developer: Person
